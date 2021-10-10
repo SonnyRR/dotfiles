@@ -1,0 +1,10 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.autoSave": "off",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "omnisharp.enableRoslynAnalyzers": true
+}

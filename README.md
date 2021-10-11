@@ -2,6 +2,8 @@
 
 My personal dotfiles for Windows & Linux machines.
 
+Most of the `pwsh` scripts & configurations are based off: `wicksipedia/dotfiles`. Go check it out.
+
 ## 🔍Contains:
 
 - Powershell script for installing common tools via `chocolatey`

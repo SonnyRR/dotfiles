@@ -6,13 +6,21 @@ Most of the `pwsh` scripts & configurations are based off: `wicksipedia/dotfiles
 
 ## 🔍Contains:
 
+- C# Application for automatiaclly initializing new systems with `winget` or `chocolatey`.
 - Powershell script for installing common tools via `chocolatey`
 - Powershell script for configuring `oh-my-posh` and extending global `.gitconfig` with custom settings.
 - `VS Code` user settings & recommended extensions.
 - `Oh my ZSH` configuration.
 
-### 🍫 Chocolatey packages
+### 🥏 How to use:
+***
+#### Use the .NET console app:
 
-You could view the various `chocolatey` packages in the `setup-tools.ps1` script.
+```pwsh
+dotnet run #For restoring packages with winget.
+``` 
+```pwsh
+dotnet run --choco #For restoring packages with chocolatey.
+``` 
 
-Includes: `git`, `vscode`, `powershell 7`, `windows terminal`, `linqpad`, `7zip`, `notepad++`, `powertoys`, `sysinternals`, `oh-my-posh`, `azure cli tools`, `dotnet sdk`, `postman`, `docker`, `insomnia`, `nswag studio`, `nodejs lts` and others.
+or run one of the `powershell` scripts in the root directory.

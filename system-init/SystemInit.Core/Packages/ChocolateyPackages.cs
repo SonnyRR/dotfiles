@@ -21,7 +21,10 @@
             "linqpad",
             "postman",
             "vscode",
-            "nvm"
+            "nvm",
+            "ilspy",
+            "neovim",
+            "devtoys"
         };
     }
 }

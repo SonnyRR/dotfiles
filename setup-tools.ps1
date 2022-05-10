@@ -32,6 +32,11 @@ if ((Read-Host "Install dev tools: (y/N)").ToLower() -eq 'y') {
         nswagstudio `
         postman `
         vscode `
+        ilspy `
+        devtoys `
+        git `
+        nvm `
+        neovim `
         -y
 }
 

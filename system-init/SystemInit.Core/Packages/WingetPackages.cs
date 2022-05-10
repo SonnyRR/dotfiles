@@ -14,7 +14,9 @@
             "Insomnia.Insomnia",
             "Git.Git",
             "qBittorrent.qBittorrent",
-            "Microsoft.PowerToys"
+            "Microsoft.PowerToys",
+            "icsharpcode.ILSpy"
+            // "DevToys" - Might need MS Account for the store for this.
         };
     }
 }

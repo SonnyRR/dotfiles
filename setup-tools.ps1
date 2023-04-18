@@ -12,43 +12,32 @@ Write-Host  "Intstalling minimal setup"
     7zip `
     git `
     oh-my-posh `
+    dotnet-6.0-sdk `
+    dotnet-sdk `
     microsoft-windows-terminal `
     notepadplusplus `
     powertoys `
     pwsh `
     sysinternals `
+    sumatrapdf `
+    jetbrainstoolbox `
+    azure-cli `
+    dotnet `
+    docker-desktop `
+    linqpad `
+    postman `
+    vscode `
+    fnm `
+    ilspy `
+    neovim `
+    devtoys `
+    mobaxterm `
+    sharex `
+    vlc `
+    neovim `
+    gimp `
+    qbittorrent `
+    obsidian `
+    wiztree `
+    googleearthpro `
     -y
-
-
-# add tools
-if ((Read-Host "Install dev tools: (y/N)").ToLower() -eq 'y') {
-    & choco install `
-        azure-cli `
-        dotnet `
-        docker-desktop `
-        insomnia-rest-api-client `
-        linqpad `
-        nodejs-lts `
-        nswagstudio `
-        postman `
-        vscode `
-        ilspy `
-        devtoys `
-        git `
-        nvm `
-        neovim `
-        -y
-}
-
-if ((Read-Host "Install paid tools: (y/N)").ToLower() -eq 'y') {
-    & choco install `
-        visualstudio2019enterprise `
-        -y
-}
-
-if ((Read-Host "Install other apps: (y/N)").ToLower() -eq 'y') {
-    & choco install `
-        sumatrapdf.install `
-        jetbrainstoolbox `
-        -y
-}

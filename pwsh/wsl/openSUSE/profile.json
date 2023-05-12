@@ -1,0 +1,8 @@
+{
+  "guid": "{bc2da056-dd06-5879-b969-1dfcefc8d2c7}",
+  "hidden": false,
+  "name": "openSUSE-Tumbleweed",
+  "icon": "ms-appdata:///roaming/opensuse.png",
+  "backgroundImage": "ms-appdata:///roaming/opensuse-wallpaper.png",
+  "source": "Windows.Terminal.Wsl"
+}

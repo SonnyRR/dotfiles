@@ -1,0 +1,1 @@
+Path: C:\Users\{Current User}\AppData\Local\Packages\Microsoft.WindowsTerminal\RoamingState
